@@ -88,9 +88,6 @@ main{
     gap: 10px;
     height: 100%;
 }
-.catalogue{
-    flex: 1;
-}
 
 .player{
     justify-content: end;;
@@ -124,4 +121,53 @@ main{
 }
 .sub-nav a:active{
     color: black;
+}
+
+/* songs page */
+.songs {
+    flex: 1;
+    overflow-y: scroll;
+}
+
+.song-rows {
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* songs scroll bar customization */
+.songs::-webkit-scrollbar {
+    width: 5px;
+}
+
+.songs::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+
+.songs::-webkit-scrollbar-thumb {
+    background: #888; 
+    border-radius: 3px;
+}
+
+.songs::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+
+.song-rows {
+    font-family: 'Work Sans', sans-serif;
+}
+
+.song-rows:hover {
+    color: #7C1111;
+    cursor: pointer;
+}
+
+.song-rows:active {
+    color: #7C1111;
+}
+
+.song-rows td {
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: 'Work Sans', sans-serif;
+    width: 200px;
 }
