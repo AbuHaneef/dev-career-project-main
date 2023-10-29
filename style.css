@@ -108,3 +108,20 @@ main{
     width: 60px;
     height: 60px;
 }
+
+.music{
+    color: #7C1111;
+}
+.sub-nav{
+    display: flex;
+    gap: 30px;
+    margin: 10px 0px;
+    color: #818181;
+}
+.sub-nav a{
+    text-decoration: none;
+    color: #818181;
+}
+.sub-nav a:active{
+    color: black;
+}

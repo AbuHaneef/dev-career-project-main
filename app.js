@@ -13,3 +13,4 @@
   };
   components.forEach(renderComponent);
 })();
+console.log("hey checking if this is working")
