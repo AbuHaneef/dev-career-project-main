@@ -126,26 +126,3 @@ main{
     color: black;
 }
 
-.alb{
-    padding: 63px 26px;
-    background-color: rgba(255, 255, 255, 0.31);   
-    color: #5D5959;
-    font-size: 16px;
-    width: 149px;
-    height: 139px;
-    border-radius: 10px;
-}
-.timeless{
-    padding: 0 30px;
-    font-weight: 700px;
-}
-.david{
-    padding: 0 45px;
-    color: #5D5959;
-    
-}
-.alb-art{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 10px;
-}
