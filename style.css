@@ -90,8 +90,24 @@
   .catalogue {
     flex: 0.9;
   }
+  .music{
+    color: #7C1111;
+}
+.sub-nav{
+    display: flex;
+    gap: 30px;
+    margin: 10px 0px;
+    color: #818181;
+}
+.sub-nav a{
+    text-decoration: none;
+    color: #818181;
+}
+.sub-nav a:active{
+    color: black;
+}
   .player {
-    flex: 0.1;
+    flex: 1;
     display: inline-flex;
     width: 100%;
     height: 100%;
